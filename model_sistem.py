@@ -18,6 +18,9 @@ class Anggota:
       self.alamat = alamat
       self.jumlah_buku = 0
 
+    def tampilkan_info(self):
+         print(f"Anggota: {self.nama} | Alamat: {self.alamat}")  
+
 class Petugas:
     def __init__(self, id_petugas, nama, shift):
       self.id_petugas = id_petugas

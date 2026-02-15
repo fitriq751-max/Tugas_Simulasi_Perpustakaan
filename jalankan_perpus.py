@@ -15,6 +15,7 @@ buku_rakyat2 = Buku("Timun Mas", "Cerita Rakyat", "978-002")
 # 3. Registrasi Anggota
 # Membuat data mahasiswa sebagai entitas peminjam
 data_mhs = Anggota("125501", "Fitri Khairani Sitorus", "Pekanbaru")
+data_mhs.tampilkan_info()
 
 # Menampilkan status awal sebelum transaksi dilakukan
 print(f"Kondisi Awal: Buku {buku_rakyat2.judul} adalah {buku_rakyat2.status}")
